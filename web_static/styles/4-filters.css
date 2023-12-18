@@ -1,12 +1,15 @@
-div.container section.filters {
+div.container {
+	max-width: 1000px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+section.filters {
 	background-color: white;
 	height: 70px;
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
 }
 
 section.filters button {
